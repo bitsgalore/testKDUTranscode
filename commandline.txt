@@ -1,1 +1,1 @@
-kdu_transcode -i balloon_lossless.jp2 -o balloon_access.jpf -jpx_layers sRGB,0 Sprofile=PROFILE2 -rate 1
+kdu_transcode -i balloon_lossless.jp2 -o balloon_access_sRGB.jpf -jpx_layers sRGB,0,1,2 Sprofile=PROFILE2 -rate 1
